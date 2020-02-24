@@ -1,5 +1,5 @@
 ```python
-# Assignment: Segmenting and Clustering Neighborhoods in Toronto webscraping the data
+##**Assignment: Segmenting and Clustering Neighborhoods in Toronto webscraping the data**
 ```
 
 
@@ -40,7 +40,7 @@ import sys
 
 
 ```python
-# importing packages bs4,beautifulSoup,requests and pandas
+# *importing packages bs4,beautifulSoup,requests and pandas*
 ```
 
 
@@ -53,7 +53,7 @@ import pandas as pd
 
 
 ```python
-# web scraing the table data  from the website link using BeautifulSoup
+# *web scraing the table data  from the website link using BeautifulSoup*
 ```
 
 
@@ -116,7 +116,7 @@ len(da)
 
 
 ```python
-# ignoring the rows  where borough='not assigned'
+# *ignoring the rows  where borough='not assigned'*
 ```
 
 
@@ -147,7 +147,7 @@ len(my_list)
 
 
 ```python
-#selecting rows where neighborhood='not asssigned 'and changing the value
+#*selecting rows where neighborhood='not asssigned 'and changing the value*
 ```
 
 
@@ -177,7 +177,7 @@ print (dic)
 
 
 ```python
-# appending the changed rows to the list of rows and converting to a dataframe
+# *appending the changed rows to the list of rows and converting to a dataframe*
 ```
 
 
@@ -270,7 +270,7 @@ df.shape
 
 
 ```python
-# checking for duplicate rows in dataframe
+# *checking for duplicate rows in dataframe*
 ```
 
 
@@ -395,7 +395,7 @@ df2
 
 
 ```python
-# grouping the dataframe based on name and borough and printing the groups
+# *grouping the dataframe based on name and borough and printing the groups*
 ```
 
 
@@ -422,7 +422,7 @@ print(grouped.count())
 
 
 ```python
-# converting the groups neighborhood columns with more than one neighborhood and appending it to list
+# *converting the groups neighborhood columns with more than one neighborhood and appending it to list*
 ```
 
 
@@ -456,7 +456,7 @@ print(newls)
 
 
 ```python
-#converting the list back to Dataframe
+#*converting the list back to Dataframe*
 ```
 
 
@@ -564,7 +564,7 @@ newdf.head(10)
 
 
 ```python
-#shape of the final dataframe
+#*shape of the final dataframe*
 ```
 
 
